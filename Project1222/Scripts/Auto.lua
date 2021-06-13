@@ -31,6 +31,15 @@ Auto.quickSlot = 4
 ---------------------------------------------
 Auto.cnt = 0
 Auto.rndStopCount = 5
+
+local timer = 0 -- 수정 금지
+local time_Check = 0.5 -- 딜레이 설정 0.5는 0.5초
+
+local mode_Check = true -- 수정금지
+local range = 30 -- 수정금지
+local range_S = 30 -- 근접사냥 범위 값 설정가능
+local range_L = 170 -- 원거리사냥 범위 값 설정가능
+
 function Auto:Tick(t)
 
     if not self.object.mode then
@@ -38,6 +47,11 @@ function Auto:Tick(t)
     end
 
     local me = Client.myPlayerUnit
+    -- 포션사용 관련 변수
+    local meHp = me.hp
+    local meMhp = me.maxHP * 0.5 -- 체력설정 0.5 면 50% 이하일시 포션사용
+    local meMp = me.mp
+    local meMmp = me.maxMP * 0.5 -- 마력설정 0.5 면 50% 이하일시 포션사용
 
     if not me then
         return
@@ -54,7 +68,7 @@ function Auto:Tick(t)
 
     if target and target.valid and not target.dead then
         local dist = (me.x - target.x) * (me.x - target.x) + (me.y - target.y) * (me.y - target.y)
-        if dist < 30 * 30 then
+        if dist < range * range then
             me.StopMove()
         else
             me.MoveToPosition(target.x, target.y)
@@ -71,6 +85,20 @@ function Auto:Tick(t)
                 end
             end
         end
+        -- 포션사용
+        timer = timer + t
+        if time_Check <= timer then
+            if meHp <= meMhp then
+                -- 체력포션사용
+                Client.FireEvent("hppotion",0)
+            end
+            if meMp <= meMmp then
+                -- 마나포션사용
+                Client.FireEvent("mppotion",0)
+            end
+            timer = 0 
+        end
+
     else
         self.target = Client.field.FindNearUnit(me.x, me.y, 2000, 2, me)
     end
@@ -109,8 +137,19 @@ function Auto:Show()
         o.mode = not o.mode
         Client.myPlayerUnit.StopMove()
         print('[#] 자동사냥을 '..(o.mode and '시작' or '종료')..'합니다.')
+        Client.FireEvent("AUTO_MODE_SERVER", 0)
     end)
 
     Client.onTick.Add(function(t) Auto:Tick(t) end)
 end
 Client.RunLater(function() Auto:Show() end, 0.5)
+
+Client.GetTopic("AUTO_MODE").Add(function(bl)
+ mode_Check = bl
+ if mode_Check == true then
+    range = range_S
+ else
+    range = range_L
+ end
+    
+end)
