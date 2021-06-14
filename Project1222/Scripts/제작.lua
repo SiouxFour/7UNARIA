@@ -418,6 +418,12 @@ list[12].count[7] = {10}
 list[12].chance[7] = 100
 list[12].gold[7] = 0
 
+list[12].dataID[8] = 178
+list[12].guide[8] = {602}
+list[12].count[8] = {3}
+list[12].chance[8] = 100
+list[12].gold[8] = 0
+
 
 function openItemCreate()
 	local category
