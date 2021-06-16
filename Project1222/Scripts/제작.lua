@@ -370,11 +370,23 @@ list[11].count[1] = {100}
 list[11].chance[1] = 100
 list[11].gold[1] = 1000000
 
-list[11].dataID[2] = 121
-list[11].guide[2] = {118}
-list[11].count[2] = {1500}
+list[11].dataID[2] = 94
+list[11].guide[2] = {127}
+list[11].count[2] = {15}
 list[11].chance[2] = 100
-list[11].gold[2] = 3000000
+list[11].gold[2] = 500000
+
+list[11].dataID[3] = 121
+list[11].guide[3] = {118}
+list[11].count[3] = {1500}
+list[11].chance[3] = 100
+list[11].gold[3] = 3000000
+
+list[11].dataID[4] = 121
+list[11].guide[4] = {128}
+list[11].count[4] = {15}
+list[11].chance[4] = 100
+list[11].gold[4] = 1500000
 
 list[12].dataID[1] = 147
 list[12].guide[1] = {602}
