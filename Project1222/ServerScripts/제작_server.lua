@@ -224,19 +224,19 @@ list[2].gold[9] = 30000000
 list[8].dataID[1] = 170
 list[8].guide[1] = {395,396,397,398}
 list[8].count[1] = {1,1,2,2}
-list[8].chance[1] = 50
+list[8].chance[1] = 75
 list[8].gold[1] = 200000
 
 list[8].dataID[2] = 169
 list[8].guide[2] = {395,396,397,398}
 list[8].count[2] = {1,1,4,1}
-list[8].chance[2] = 50
+list[8].chance[2] = 75
 list[8].gold[2] = 400000
 
 list[8].dataID[3] = 171
 list[8].guide[3] = {395,396,397,398,399}
 list[8].count[3] = {1,1,2,2,2}
-list[8].chance[3] = 50
+list[8].chance[3] = 75
 list[8].gold[3] = 600000
 
 list[9].dataID[1] = 84
