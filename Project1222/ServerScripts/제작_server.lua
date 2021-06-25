@@ -221,6 +221,156 @@ list[2].count[9] = {250,150}
 list[2].chance[9] = 75
 list[2].gold[9] = 30000000
 
+list[2].dataID[10] = 511
+list[2].guide[10] = {235,243,246}
+list[2].count[10] = {300,300,450}
+list[2].chance[10] = 100
+list[2].gold[10] = 40000000
+
+list[2].dataID[11] = 511
+list[2].guide[11] = {235,243,246}
+list[2].count[11] = {35,35,50}
+list[2].chance[11] = 10
+list[2].gold[11] = 6000000
+
+list[2].dataID[12] = 512
+list[2].guide[12] = {235,243,246}
+list[2].count[12] = {300,300,450}
+list[2].chance[12] = 100
+list[2].gold[12] = 40000000
+
+list[2].dataID[13] = 512
+list[2].guide[13] = {235,243,246}
+list[2].count[13] = {35,35,50}
+list[2].chance[13] = 10
+list[2].gold[13] = 6000000
+
+list[2].dataID[14] = 513
+list[2].guide[14] = {235,243,246}
+list[2].count[14] = {300,300,450}
+list[2].chance[14] = 100
+list[2].gold[14] = 40000000
+
+list[2].dataID[15] = 513
+list[2].guide[15] = {235,243,246}
+list[2].count[15] = {35,35,50}
+list[2].chance[15] = 10
+list[2].gold[15] = 6000000
+
+list[2].dataID[16] = 514
+list[2].guide[16] = {235,243,246}
+list[2].count[16] = {300,300,450}
+list[2].chance[16] = 100
+list[2].gold[16] = 40000000
+
+list[2].dataID[17] = 514
+list[2].guide[17] = {235,243,246}
+list[2].count[17] = {35,35,50}
+list[2].chance[17] = 10
+list[2].gold[17] = 6000000
+
+list[2].dataID[18] = 515
+list[2].guide[18] = {235,243,246}
+list[2].count[18] = {300,300,450}
+list[2].chance[18] = 100
+list[2].gold[18] = 40000000
+
+list[2].dataID[19] = 515
+list[2].guide[19] = {235,243,246}
+list[2].count[19] = {35,35,50}
+list[2].chance[19] = 10
+list[2].gold[19] = 6000000
+
+list[2].dataID[20] = 516
+list[2].guide[20] = {235,243,246}
+list[2].count[20] = {300,300,450}
+list[2].chance[20] = 100
+list[2].gold[20] = 40000000
+
+list[2].dataID[21] = 516
+list[2].guide[21] = {235,243,246}
+list[2].count[21] = {35,35,50}
+list[2].chance[21] = 10
+list[2].gold[21] = 6000000
+
+list[2].dataID[22] = 517
+list[2].guide[22] = {235,243,246}
+list[2].count[22] = {300,300,450}
+list[2].chance[22] = 100
+list[2].gold[22] = 40000000
+
+list[2].dataID[23] = 517
+list[2].guide[23] = {235,243,246}
+list[2].count[23] = {35,35,50}
+list[2].chance[23] = 10
+list[2].gold[23] = 6000000
+
+list[2].dataID[24] = 520
+list[2].guide[24] = {235,243,246}
+list[2].count[24] = {300,300,450}
+list[2].chance[24] = 100
+list[2].gold[24] = 40000000
+
+list[2].dataID[25] = 520
+list[2].guide[25] = {235,243,246}
+list[2].count[25] = {35,35,50}
+list[2].chance[25] = 10
+list[2].gold[25] = 6000000
+
+list[2].dataID[26] = 523
+list[2].guide[26] = {235,243,246}
+list[2].count[26] = {300,300,450}
+list[2].chance[26] = 100
+list[2].gold[26] = 40000000
+
+list[2].dataID[27] = 523
+list[2].guide[27] = {235,243,246}
+list[2].count[27] = {35,35,50}
+list[2].chance[27] = 10
+list[2].gold[27] = 6000000
+
+list[2].dataID[28] = 524
+list[2].guide[28] = {235,243,246}
+list[2].count[28] = {300,300,450}
+list[2].chance[28] = 100
+list[2].gold[28] = 40000000
+
+list[2].dataID[29] = 524
+list[2].guide[29] = {235,243,246}
+list[2].count[29] = {35,35,50}
+list[2].chance[29] = 10
+list[2].gold[29] = 6000000
+
+list[2].dataID[30] = 525
+list[2].guide[30] = {235,243,246}
+list[2].count[30] = {300,300,450}
+list[2].chance[30] = 100
+list[2].gold[30] = 40000000
+
+list[2].dataID[31] = 525
+list[2].guide[31] = {235,243,246}
+list[2].count[31] = {35,35,50}
+list[2].chance[31] = 10
+list[2].gold[31] = 6000000
+
+list[2].dataID[32] = 526
+list[2].guide[32] = {235,243,246}
+list[2].count[32] = {300,300,450}
+list[2].chance[32] = 100
+list[2].gold[32] = 40000000
+
+list[2].dataID[33] = 526
+list[2].guide[33] = {235,243,246}
+list[2].count[33] = {35,35,50}
+list[2].chance[33] = 10
+list[2].gold[33] = 6000000
+
+list[2].dataID[34] = 249
+list[2].guide[34] = {235,243,246}
+list[2].count[34] = {900,900,900}
+list[2].chance[34] = 50
+list[2].gold[34] = 120000000
+
 list[8].dataID[1] = 170
 list[8].guide[1] = {395,396,397,398}
 list[8].count[1] = {1,1,2,2}
@@ -436,6 +586,12 @@ list[12].guide[8] = {602}
 list[12].count[8] = {3}
 list[12].chance[8] = 100
 list[12].gold[8] = 0
+
+list[12].dataID[9] = 179
+list[12].guide[9] = {602}
+list[12].count[9] = {5}
+list[12].chance[9] = 100
+list[12].gold[9] = 0
 
 local labelList = {}
 labelList[4] = true
