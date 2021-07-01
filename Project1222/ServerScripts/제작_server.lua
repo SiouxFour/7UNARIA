@@ -593,6 +593,18 @@ list[12].count[9] = {5}
 list[12].chance[9] = 100
 list[12].gold[9] = 0
 
+list[12].dataID[10] = 180
+list[12].guide[10] = {602}
+list[12].count[10] = {3}
+list[12].chance[10] = 100
+list[12].gold[10] = 0
+
+list[12].dataID[11] = 248
+list[12].guide[11] = {602}
+list[12].count[11] = {9}
+list[12].chance[11] = 100
+list[12].gold[11] = 0
+
 local labelList = {}
 labelList[4] = true
 labelList[5] = true

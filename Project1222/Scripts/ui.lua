@@ -7,7 +7,7 @@ UItextImage1 = Image("Pictures/Item_900016.png", Rect(cw-187, 49, 35,35))
 UItextImage2 = Image("Pictures/Icon_Tower.png", Rect(cw-146, 49, 35,35))
 UItextImage3 = Image("Pictures/item_5009.png", Rect(cw-105, 49, 35,35))
 UItextImage4 = Image("Pictures/출석.png", Rect(cw-64, 49, 35,35))
-UItextImage5 = Image("Pictures/투명.png", Rect(cw-187, 89, 35,35))
+UItextImage5 = Image("Pictures/ic_calendar.png", Rect(cw-187, 89, 35,35))
 UItextImage6 = Image("Pictures/item_30008.png", Rect(cw-146, 89, 35,35))
 UItextImage7 = Image("Pictures/아이템.png", Rect(cw-105, 89, 35,35))
 UItextImage8 = Image("Pictures/Item_41408.png", Rect(cw-64, 89, 35,35))
@@ -17,7 +17,7 @@ UItextname1 = "창고"
 UItextname2 = "조합"
 UItextname3 = "큐브"
 UItextname4 = "장터"
-UItextname5 = ""
+UItextname5 = "일일"
 UItextname6 = "상점"
 UItextname7 = "시점"
 UItextname8 = "랭킹"
@@ -444,7 +444,7 @@ UIname4.onClick.Add(function()
 end)
 
 UIname5.onClick.Add(function()
-	Client.FireEvent("GLOBAL_EVENT", 180) -- 숫자에 공용이벤트 번호 입력해주세요.
+	Client.FireEvent("GLOBAL_EVENT", 154) -- 숫자에 공용이벤트 번호 입력해주세요.
 end)
 
 UIname6.onClick.Add(function()

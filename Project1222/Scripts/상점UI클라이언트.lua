@@ -55,16 +55,10 @@ list_shop_1.neIt[7] = mainItem
 list_shop_1.neCo[7] = 1290
 
 list_shop_1.name[8] = "" 
-list_shop_1.adIt[8] = 177
+list_shop_1.adIt[8] = 634
 list_shop_1.adCo[8] = 1
 list_shop_1.neIt[8] = mainItem
-list_shop_1.neCo[8] = 2990
-
-list_shop_1.name[9] = "" 
-list_shop_1.adIt[9] = 634
-list_shop_1.adCo[9] = 1
-list_shop_1.neIt[9] = mainItem
-list_shop_1.neCo[9] = 2590
+list_shop_1.neCo[8] = 2590
 
 -------------------------------------------------------
 panel_shop = Panel()
