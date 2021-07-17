@@ -60,6 +60,12 @@ list_shop_1.adCo[8] = 1
 list_shop_1.neIt[8] = mainItem
 list_shop_1.neCo[8] = 2590
 
+list_shop_1.name[9] = "" 
+list_shop_1.adIt[9] = 635
+list_shop_1.adCo[9] = 1
+list_shop_1.neIt[9] = mainItem
+list_shop_1.neCo[9] = 1200
+
 -------------------------------------------------------
 panel_shop = Panel()
 panel_shop.rect = Rect(0, 0, Client.width, Client.height)

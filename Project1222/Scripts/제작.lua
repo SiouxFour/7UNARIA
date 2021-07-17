@@ -418,6 +418,18 @@ list[2].count[42] = {1}
 list[2].chance[42] = 100
 list[2].gold[42] = 0
 
+list[7].dataID[1] = 122
+list[7].guide[1] = {256}
+list[7].count[1] = {30}
+list[7].chance[1] = 100
+list[7].gold[1] = 1
+
+list[7].dataID[2] = 179
+list[7].guide[2] = {256}
+list[7].count[2] = {30}
+list[7].chance[2] = 100
+list[7].gold[2] = 2
+
 list[8].dataID[1] = 170
 list[8].guide[1] = {395,396,397,398}
 list[8].count[1] = {1,1,2,2}
@@ -561,6 +573,12 @@ list[10].guide[20] = {621}
 list[10].count[20] = {1}
 list[10].chance[20] = 100
 list[10].gold[20] = 3500000
+
+list[10].dataID[21] = 627
+list[10].guide[21] = {611}
+list[10].count[21] = {1}
+list[10].chance[21] = 100
+list[10].gold[21] = 3500000
 
 list[11].dataID[1] = 94
 list[11].guide[1] = {223}
