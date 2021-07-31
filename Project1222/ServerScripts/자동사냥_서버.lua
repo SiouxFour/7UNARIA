@@ -7,6 +7,8 @@
         Auto_Mode = true
     elseif unit.job == 3 then
         Auto_Mode = false
+    elseif unit.job == 5 then
+        Auto_Mode = false
     end
     unit.FireEvent("AUTO_MODE",Auto_Mode)
 end) -- 
