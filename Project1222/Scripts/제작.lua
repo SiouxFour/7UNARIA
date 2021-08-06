@@ -628,6 +628,12 @@ list[7].count[2] = {30}
 list[7].chance[2] = 100
 list[7].gold[2] = 2
 
+list[7].dataID[3] = 183
+list[7].guide[3] = {256,257}
+list[7].count[3] = {10,1}
+list[7].chance[3] = 100
+list[7].gold[3] = 3
+
 list[8].dataID[1] = 170
 list[8].guide[1] = {395,396,397,398}
 list[8].count[1] = {1,1,2,2}
