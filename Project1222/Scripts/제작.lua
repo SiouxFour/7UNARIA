@@ -634,6 +634,48 @@ list[7].count[3] = {10,1}
 list[7].chance[3] = 100
 list[7].gold[3] = 3
 
+list[7].dataID[4] = 170
+list[7].guide[4] = {256}
+list[7].count[4] = {7}
+list[7].chance[4] = 100
+list[7].gold[4] = 4
+
+list[7].dataID[5] = 169
+list[7].guide[5] = {256}
+list[7].count[5] = {12}
+list[7].chance[5] = 100
+list[7].gold[5] = 5
+
+list[7].dataID[6] = 171
+list[7].guide[6] = {256}
+list[7].count[6] = {17}
+list[7].chance[6] = 100
+list[7].gold[6] = 6
+
+list[7].dataID[7] = 180
+list[7].guide[7] = {256}
+list[7].count[7] = {22}
+list[7].chance[7] = 100
+list[7].gold[7] = 7
+
+list[7].dataID[8] = 94
+list[7].guide[8] = {256}
+list[7].count[8] = {3}
+list[7].chance[8] = 100
+list[7].gold[8] = 8
+
+list[7].dataID[9] = 121
+list[7].guide[9] = {256}
+list[7].count[9] = {8}
+list[7].chance[9] = 100
+list[7].gold[9] = 9
+
+list[7].dataID[10] = 178
+list[7].guide[10] = {256}
+list[7].count[10] = {15}
+list[7].chance[10] = 100
+list[7].gold[10] = 10
+
 list[8].dataID[1] = 170
 list[8].guide[1] = {395,396,397,398}
 list[8].count[1] = {1,1,2,2}
